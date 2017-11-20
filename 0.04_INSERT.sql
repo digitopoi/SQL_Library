@@ -1,7 +1,7 @@
 ﻿-- standard syntax to insert a product:
 INSERT dbo.Products (ProductID, ProductName, Price, ProductDescription)
 	VALUES (2, 'Clamp', 12.48, 'Workbench clamp')
-GO
+ GO
 
 -- using a different order for column names:
 INSERT dbo.Products (ProductDescription, Price, ProductName, ProductID)
